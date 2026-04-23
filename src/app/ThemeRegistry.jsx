@@ -3,6 +3,9 @@
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 
 const theme = createTheme({
+   typography: {
+    fontFamily: "Tajawal, sans-serif",
+  },
   palette: {
     primary: {
       main: "#3b82f6",

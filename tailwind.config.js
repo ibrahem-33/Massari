@@ -14,6 +14,9 @@ module.exports = {
         bg: "var(--color-bg)",
         text: "var(--color-text)",
       },
+      fontFamily: {
+        sans: ["Tajawal", "sans-serif"],
+      },
     },
   },
   plugins: [],
