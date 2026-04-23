@@ -9,10 +9,10 @@ export default function UniversityCard({ university }) {
   return (
     <Card
       onClick={() => router.push(`/universities/${university.id}`)}
-      className="flex flex-row items-center gap-6 p-2 rounded-2xl shadow-sm hover:shadow-lg transition duration-300 cursor-pointer bg-white"
+      className="flex flex-row   h-[270px] items-center gap-6 p-2 rounded-2xl shadow-sm hover:shadow-lg transition duration-300 cursor-pointer bg-white"
     >
       {/* الصورة */}
-      <div className="w-[200px] h-[250px] flex-shrink-0 overflow-hidden rounded-xl">
+      <div className="w-[200px] h-full flex-shrink-0 overflow-hidden rounded-xl">
         <img
           src={university.image}
           alt={university.name}
